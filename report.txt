@@ -1,8 +1,0 @@
-USERNAME                      ||PASSWORD  ||RESULT                         ||UI MESSAGE
-test@qa-experience.com        ||Password1 ||Page navigated and no error    ||Successfully logged in!
-test@qa-experience.com        ||Password3 ||Page navigated and no error    ||Successfully logged in!
-test@qa-experience.com        ||pass      ||Page not navigated and error   ||Error message
-test@qa-experience1.com       ||Password1 ||Page navigated and no error    ||Successfully logged in!
-testqa-experience.com         ||Password1 ||Page not navigated and error   ||Error message
-test@qa-experience.com7       ||Password2 ||Page not navigated and error   ||Error message
-test@qa-expfcdsfederience.com ||fakepwd111||Page navigated and no error    ||Successfully logged in!

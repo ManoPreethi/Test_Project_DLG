@@ -1,0 +1,8 @@
+SCENARIO,USERNAME,PASSWORD,ACTUAL RESULT,UI MESSAGE,TC_STATUS
+Validate Login with valid credentials,test@qa-experience.com,Password1,Page navigated and no error    ,Successfully logged in!,PASSED
+Validate Login with valid username and invalid password,test@qa-experience.com,Password3,Page navigated and no error    ,Successfully logged in!,FAILED
+Validate Login with invalid username and valid password,test@qa-experience1.com,Password1,Page navigated and no error    ,Successfully logged in!,FAILED
+Validate Login with valid username and invalid password(inconsistent),test@qa-experience.com,pass,Page not navigated and error   ,Error message,PASSED
+Validate Login with invalid username(inconsistent) and valid password,testqa-experience.com,Password1,Page not navigated and error   ,Error message,PASSED
+Validate Login with invalid username(inconsistent) and invalid password,test@qa-experience.com7,Password2,Page not navigated and error   ,Error message,PASSED
+Validate Login with invalid username and invalid password,test@qa-expfcdsfederience.com,fakepwd111,Page navigated and no error    ,Successfully logged in!,FAILED

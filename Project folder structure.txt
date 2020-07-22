@@ -3,14 +3,14 @@ Maven_Cucumber_selenium(This is a Maven Project)
 ->src/main/resources
 ->src/test/java
   ->runner(this is a package)
-      ->TestRunner.java( this is a runner class which is to identify the feature file and to execute the script)
+      ->TestRunner.java(This runner class file is used to identify the feature file and to execute the script)
   ->stepDefinition(this is a package)
-      ->Testdescription.java (this class will have all the methods implemented based on the feature file)
+      ->Testdescription.java (This class file will have all the methods that to be implemented based on the feature file)
 ->src/test/resources
 ->JRE System Library
 ->Maven Dependencies(this contains all the jars downloaded from the pom.xml file)
 ->Feature( this is a feature folder and has .feature file)
       ->login.feature ( this feature file will have gherkin syntax of the various scenarios based on the business requirements
 ->src
-->target (this folder will contain the report generated) 
-->pom.xml (this will have all the dependencies that are required to run the script 
+->target (this folder will contain the report generated; in this .csv file is created which will have complete information on the test execution status and test results) 
+->pom.xml (This xml file is used to add all the dependencies that are required to run the script)
